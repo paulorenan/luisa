@@ -17,12 +17,14 @@ function Home(props) {
 
     return (
         <main className='home'>
-            <h1>Olá Luísa</h1>
+            <h1 className='title'>Olá Luísa</h1>
             <p className='subtitle'>Tenho uma pequena surpresa para você</p>
             <p className='subtitle'>Clique no botão abaixo</p>
-            <button onClick={handleLuisa}>Sou a Luísa</button>
-            <p>PS: se vc não for a Luísa clique aqui</p>
-            <button onClick={handleNotLuisa}>Não sou a Luísa</button>
+            <button className='button-1' onClick={handleLuisa}>Sou a Luísa</button>
+            <div className='footer'>
+            <p className='footer-p'>PS: se vc não for a Luísa clique aqui</p>
+            <button className='button-1' onClick={handleNotLuisa}>Não sou a Luísa</button>
+            </div>
         </main>
     );
 }
