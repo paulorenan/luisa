@@ -10,6 +10,8 @@ function Home(props) {
     }
 
     const handleNotLuisa = () => {
+        const audio = document.getElementById("audioStrange");
+        audio.play();
         props.setIsStrange(true);
     }
 
