@@ -4,6 +4,8 @@ import '../styles/Home.css';
 function Home(props) {
 
     const handleLuisa = () => {
+        const audio = document.getElementById("audioPlayer");
+        audio.play();
         props.setIsLuisa(true);
     }
 

@@ -12,7 +12,7 @@ function App() {
     <>
     {!isLuisa && !isStrange && <Home setIsLuisa={setIsLuisa} setIsStrange={setIsStrange}/>}
     {isLuisa && <Luisa></Luisa>}
-    <audio autoPlay loop>
+    <audio autoPlay loop id="audioPlayer">
       <source src={Die} type="audio/mpeg"/>
     </audio>
     </>
