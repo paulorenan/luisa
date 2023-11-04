@@ -4,13 +4,13 @@ import '../styles/Home.css';
 function Home(props) {
 
     const handleLuisa = () => {
-        const audio = document.getElementById("audioPlayer");
+        const audio = document.getElementById("audioLuisa");
         audio.play();
         props.setIsLuisa(true);
     }
 
     const handleNotLuisa = () => {
-        props.setIsStrange(false);
+        props.setIsStrange(true);
     }
 
     return (

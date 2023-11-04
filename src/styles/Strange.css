@@ -1,0 +1,18 @@
+@keyframes wave {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+
+.strange {
+    background-image: url("../images/gato2.jpg");
+    background-position: center;
+    background-size: cover;
+    animation: wave 3s infinite linear;
+    margin: 0;
+    height: 100svh;
+    position: relative;
+}
