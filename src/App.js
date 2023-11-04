@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Home from './components/Home.jsx';
 import Luisa from './components/Luisa.jsx';
+import Die from './images/The_Weeknd_-_Die_For_You.mp3'
 
 function App() {
   const [isLuisa, setIsLuisa] = useState(false);
@@ -11,6 +12,9 @@ function App() {
     <>
     {!isLuisa && !isStrange && <Home setIsLuisa={setIsLuisa} setIsStrange={setIsStrange}/>}
     {isLuisa && <Luisa></Luisa>}
+    <audio autoPlay loop>
+      <source src={Die} type="audio/mpeg"/>
+    </audio>
     </>
   );
 }
