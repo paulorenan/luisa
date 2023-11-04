@@ -1,0 +1,18 @@
+.luisa {
+    background-image: url("../images/gato.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 100svh;
+    position: relative;
+}
+
+.top {
+    position: absolute;
+    top: 30px;
+}
+
+.bot {
+    position: absolute;
+    bottom: 30px;
+}

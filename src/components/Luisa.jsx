@@ -4,10 +4,10 @@ import '../styles/Luisa.css';
 
 function Luisa() {
     return (
-        <main>
-            <p>Vim te trazer essas flores a pedido do seu bbzinho</p>
+        <main className='luisa'>
+            <p className='top'>Vim te trazer essas flores a pedido do seu bbzinho</p>
             {/* <img src={Gato} alt="gato" /> */}
-            <p>Espero que goste!</p>
+            <p className='bot'>Espero que goste!</p>
         </main>
     );
 }
