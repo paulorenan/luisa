@@ -12,8 +12,10 @@ function Home(props) {
     }
 
     return (
-        <main>
+        <main className='home'>
             <h1>Olá Luísa</h1>
+            <p className='subtitle'>Tenho uma pequena surpresa para você</p>
+            <p className='subtitle'>Clique no botão abaixo</p>
             <button onClick={handleLuisa}>Sou a Luísa</button>
             <p>PS: se vc não for a Luísa clique aqui</p>
             <button onClick={handleNotLuisa}>Não sou a Luísa</button>
