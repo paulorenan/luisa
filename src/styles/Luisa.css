@@ -1,7 +1,17 @@
+@keyframes wave {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+
 .luisa {
     background-image: url("../images/gato.jpg");
     background-position: center;
     background-size: cover;
+    animation: wave 3s infinite linear;
     margin: 0;
     height: 100svh;
     position: relative;
@@ -10,9 +20,18 @@
 .top {
     position: absolute;
     top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px white;
 }
 
 .bot {
     position: absolute;
     bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 4px white;
 }
